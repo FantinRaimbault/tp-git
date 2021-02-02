@@ -6,3 +6,9 @@ app.get('/', function (req, res) {
 })
  
 app.listen(3001)
+
+function helloFantin() {
+    console.log('hello Fantin')
+}
+
+helloFantin()
