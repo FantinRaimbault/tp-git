@@ -12,4 +12,3 @@ contributors can be involved in decision making.
 
 Any change to resources in this repository must be through pull requests from development. 
 No pull request can be merged without being reviewed.
-

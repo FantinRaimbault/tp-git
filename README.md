@@ -1,5 +1,5 @@
 # TP Git
 
 ## RUN PROJECT
-- `nvm install`
+- `npm install`
 - `npm run start`
