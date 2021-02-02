@@ -10,7 +10,7 @@ app.listen(3001)
 
 const helloOliwier = () => console.log('HelloOliwier');
 function helloFantin() {
-    console.log('hello Fantin')
+    console.log('hello Fantin Raimbault')
 }
 
 helloFantin()
