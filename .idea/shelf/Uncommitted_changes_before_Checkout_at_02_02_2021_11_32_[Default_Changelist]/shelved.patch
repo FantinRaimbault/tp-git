@@ -1,0 +1,26 @@
+Index: index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>const express = require('express')\nconst app = express()\n \napp.get('/', function (req, res) {\n  res.send('Hello World')\n})\n \napp.listen(3001)
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.js b/index.js
+--- a/index.js	
++++ b/index.js	
+@@ -1,8 +1,10 @@
+ const express = require('express')
+ const app = express()
+- 
+-app.get('/', function (req, res) {
+-  res.send('Hello World')
+-})
++
++function helloPierre() {
++  console.log('Hello Pierre')
++}
++helloPierre()
++
+  
+ app.listen(3001)
+\ No newline at end of file
