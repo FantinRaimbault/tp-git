@@ -1,8 +1,28 @@
 const express = require('express')
 const app = express()
- 
+
 app.get('/', function (req, res) {
-  res.send('Hello World !')
+
+  helloOliwier();
+  res.send('Hello World');
+
 })
+
+function helloLeandre() {
+ console.log('Hello Léandre')
+}
+helloLeandre()
  
 app.listen(3001)
+
+const helloOliwier = () => console.log('HelloOliwier');
+function helloFantin() {
+    console.log('hello Fantin Raimbault')
+}
+
+helloPierre()
+function helloPierre() {
+    console.log('hello Pierre')
+}
+
+helloFantin()
