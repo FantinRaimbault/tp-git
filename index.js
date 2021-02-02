@@ -9,3 +9,8 @@ app.get('/', function (req, res) {
 app.listen(3001)
 
 const helloOliwier = () => console.log('HelloOliwier');
+function helloFantin() {
+    console.log('hello Fantin')
+}
+
+helloFantin()
